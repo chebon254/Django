@@ -1,13 +1,19 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
+<<<<<<< HEAD
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import *
 from .forms import *
+=======
+from django.shortcuts import render
+from django.http import HttpResponse
+>>>>>>> master
 
 # Create your views here.
 def home(request):
 	return render(request, 'inventory/index.html');
+<<<<<<< HEAD
 
 
 # Display devices
@@ -150,3 +156,5 @@ def delete_mobile(request, pk):
 		'items': items,
 	}
 	return render(request, 'inventory/index.html', context)
+=======
+>>>>>>> master
