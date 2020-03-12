@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Anu</title>
+
+	<!-- Stylesheet -->
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}">
+
+</head>
+<body>
+
+	<!-- Website wrapper -->
+		<div class="website_wrapper">
+			<!-- Navigation -->
+				<nav>
+					<h1>Nav menu</h1>
+				</nav>
+			<!-- || End  Navigation -->
+
+			<!-- Body section -->
+				<section>
+					{% block content %}
+					{% endblock %}
+				</section>
+			<!-- || End Body section -->
+
+			<!-- Footer -->
+				<footer>
+					
+				</footer>
+			<!-- Footer -->
+		</div>
+	<!-- || End Website wrapper -->
+
+
+
+
+</body>
+</html>
