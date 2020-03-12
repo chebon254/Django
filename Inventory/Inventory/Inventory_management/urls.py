@@ -1,6 +1,5 @@
 from django.conf.urls import url
 
-<<<<<<< HEAD
 from .views import *
 
 #Urls patters here
@@ -22,12 +21,4 @@ urlpatterns = [
     url(r'^Desktops/Delete_Desktop/(?P<pk>\d+)$', delete_desktop, name='delete_desktop'),
     url(r'^Laptops/Delete_Laptop/(?P<pk>\d+)$', delete_laptop, name='delete_laptop'),
     url(r'^Mobiles/Delete_Mobile/(?P<pk>\d+)$', delete_mobile, name='delete_mobile'),
-
-=======
-from .views import home
-
-#Urls patters here
-urlpatterns = [
-    url(r'^', home, name='home'),
->>>>>>> master
 ]

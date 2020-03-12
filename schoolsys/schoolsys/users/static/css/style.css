@@ -1,0 +1,49 @@
+/*
+
+	Author : Chebon Kibet Kelvin
+	Name   : School system
+	Theme  : Youtube color scheme
+
+*/
+
+
+
+
+
+/* GENEREAL */
+body{
+	margin: 0;
+	padding: 15px 15px;
+	height: 100%;
+	width: 100%;
+	background-color: #131419;
+}
+.website_wrapper{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background-color: #fff;
+}
+nav section footer {
+	display: block;
+}
+
+/* || END GENEREAL */
+
+
+/* NAVIGATION */
+nav{
+	height: 105px;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+}
+/* || END NAVIGATION */
+
+
+/* BODY SECTION */
+/* || END BODY SECTION */
+
+
+/* FOOTER */
+/* || END FOOTER */
